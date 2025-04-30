@@ -1,0 +1,61 @@
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: background-color 0.3s ease;
+    padding: 10px 10px;
+    z-index: 1000;
+    background-color: transparent;
+  
+}
+.header.scrolled {
+    background-color: #707481; /* fundo escuro semi-transparente */
+}
+ul,li,a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+a:hover {
+    color: #162144;
+}
+.cadastro {
+    margin-left: 31%;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    background: none;
+    padding: 0 15px 4px 10px;
+}
+.cadastro:hover {
+    color: #162144;
+    border-color: #162144;
+}
+.logo {
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px -40px 10px 20px ;
+}
+.banner{
+    width: 1265px;
+}
+
+/* Meio */
+
+.titulos {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    align-self: center;
+}
+
+/* Sobre */
+
+.sobreimg{
+    width: 500px;
+}
