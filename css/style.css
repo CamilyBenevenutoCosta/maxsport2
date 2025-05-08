@@ -1,4 +1,6 @@
-
+body {
+    background: #f1f1f1;
+}
 .header {
     position: fixed;
     width: 100%;
@@ -12,7 +14,7 @@
     border-bottom-left-radius: 40px; 
 }
 .header.scrolled {
-    background-color: #707481; /* fundo escuro semi-transparente */
+    background-color: #162144; /* fundo escuro semi-transparente */
     border-bottom-right-radius: 40px;
     border-bottom-left-radius: 40px;
 }
@@ -27,7 +29,7 @@ ul,li,a {
     font-weight: 600;
 }
 a:hover {
-    color: #162144;
+    color: #999ab4;
 }
 .cadastro {
     margin-left: 31%;
@@ -37,8 +39,8 @@ a:hover {
     padding: 0 15px 4px 10px;
 }
 .cadastro:hover {
-    color: #162144;
-    border-color: #162144;
+    color: #999ab4;
+    border-color: #999ab4;
 }
 .logo {
     border-radius: 50%;
@@ -46,12 +48,12 @@ a:hover {
     margin: 10px -40px 10px 20px ;
 }
 .banner{
-    width: 1406px;
+    width: 1265px;
 }
 
 /* Meio */
 .meio {
-    margin: 20px 20px 20px 90px;   
+    margin: 50px 0px 0px 12px;   
 }
 .titulos {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -60,7 +62,6 @@ a:hover {
     color: #162144;
     text-align: center;
     margin-bottom: 50px;
-    margin-left: -70px;
 }
 
 .titulos h3 {
@@ -71,12 +72,12 @@ a:hover {
 .imgs img {
     display: inline-block;
     width: 400px;
-    margin-left: 5px;
+    margin-left: 8px;
 }
 
 .veja {
     margin-top: 20px;
-    margin-left: 35%;
+    margin-left: 36%;
     border-radius: 50px;
     border: 2px solid #162144;
     background: none;
@@ -85,6 +86,11 @@ a:hover {
     font-weight: 600;
 
 }
+
+.veja:hover {
+    border: 2px solid #999ab4;
+}
+
 .veja-a {
     color: #162144;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -92,27 +98,55 @@ a:hover {
     font-size: large;
 }
 
+.veja-i {
+    color: #162144;
+}
+
+.veja-i:hover {
+    color: #999ab4;
+} 
 /* Sobre */
 
 .sobre {
     color: #162144;
-    margin-left: 43%;
+    margin-left: 39.2%;
+    margin-top: 20px;
     margin-bottom: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
+    font-size: 54px;
 }
 .sobreimg{
-    width: 1300px;
-    height: 380px;
-    margin-left: 1%;
+    width: 1200px;
+    margin-left: 3%;
     margin-bottom: 30px;
+    box-shadow: 0px 0px 10px 0px rgba(22, 33, 68, 0.158);
 }
-
-
 
 .sobre-p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     font-size: larger;
+    text-align: center;
     margin: 0px 50px 0px 50px;
 }
+/* Depoimentos */
+.depoimentos {
+    text-align: center;
+    color: #53596b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin-top: 50px;
+    font-size: 54px;
+}
+
+.depo-p {
+    color: #162144;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: large;
+}
+
+/* Contato */
+
+/* Footer */
