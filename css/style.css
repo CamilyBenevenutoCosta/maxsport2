@@ -145,8 +145,104 @@ a:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
     font-size: large;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
 }
 
 /* Contato */
 
+.contato {
+    text-align: center;
+    color: #162144;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin-top: 50px;
+    font-size: 54px;
+}
+
+.cont-p {
+    color: #162144;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+
+form {
+    background: #f2f2f3;
+    box-shadow: 0 0 20px 0 rgba(83, 89, 107, 0.329);
+    border-radius: 20px;
+    padding: 40px 15px 60px 35px;
+    margin: 40px 460px 50px 460px;
+}
+
+/* form:hover {
+    background: linear-gradient( #162144, #213166, #2b4085);
+    
+} */
+
+label {
+    color: #53596b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+
+input{
+    border-radius: 15px;
+    border: 2px solid #53596b ;
+    display: inline-block; 
+    padding: 5px;
+    margin-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.texto {
+    margin-top: 15px;
+    padding: 10px 70px 50px 10px;
+}
+
+.enviar {
+    border-radius: 15px;
+    border: 2px solid #53596b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: large;
+    color: #53596b;
+    margin: 10px 60px;
+    padding: 0px 50px 0px 50px;
+}
+
 /* Footer */
+
+footer {
+    background: #162144;
+    width: 100%;
+    padding: 10px;
+}
+
+.marca {
+    color: #646c83;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.marca:hover {
+    color: #fff;
+}
+
+.footer-i {
+    color: #646c83;
+    font-size: 25px;
+}
+
+.footer-i:hover {
+    color: #fff;
+}
+
+.direitos {
+    color: #646c83;
+}
